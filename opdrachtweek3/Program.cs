@@ -11,7 +11,7 @@ namespace opdrachtweek3
 
         Console.WriteLine("vermenigvuldigtal:{0}",j);
 
-        for (int i = 0; i < 10; i++) // startwaarde, voorwaarde en verhogen/verlagen teller
+        for (int i = 0; i <= 10; i++) // startwaarde, voorwaarde en verhogen/verlagen teller
             {
                 Console.WriteLine( "{0} * {1} = {2}",i,j,i*j);
 
